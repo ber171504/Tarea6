@@ -31,16 +31,32 @@ public class Main {
             Mapa.put(parts[0], parts[1]);
 
         }
+        AbstractMap<String, String> Deck = new HashMap<String, String>();
         int continuar =0;
         while (continuar == 0) {
             System.out.println("Que deseas hacer \n    1. Ver todas las cartas disponibles \n    2. Agregar una carta por su nombre al deck \n    3. Ver el deck \n    4. Salir");
             int opcion = input.nextInt();
-            HashMap<String, String> Deck = new HashMap<String, String>();
             if (opcion == 1) {
             for (AbstractMap.Entry<String, String> entry : Mapa.entrySet())
             {
-                System.out.println(entry.getKey() + "/" + entry.getValue());
+                System.out.println(entry.getKey() + "|" + entry.getValue());
             }
+                System.out.println("Desea ver el deck de manera ordenada por tipo? \n ingrese el numero \n    1. si \n    2. no ");
+                int orden = input.nextInt();
+                if (orden==1){
+                    for (AbstractMap.Entry<String, String> entry : Mapa.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Trampa");
+                    }
+                    for (AbstractMap.Entry<String, String> entry : Mapa.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Monstruo");
+                    }
+                    for (AbstractMap.Entry<String, String> entry : Mapa.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Hechizo");
+                    }
+                }
             }
             if (opcion == 2) {
                 System.out.println("Ingrese el nombre de su carta ");
@@ -48,13 +64,29 @@ public class Main {
                 String carta = input.nextLine();
                 carta = carta + "|" + Mapa.get(carta);
                 System.out.println(carta);
-                String[] parts = carta.split("[|]");
-                Deck.put(parts[0], parts[1]);
+                String[] partes = carta.split("[|]");
+                Deck.put(partes[0], partes[1]);
             }
             if (opcion == 3) {
                 for (AbstractMap.Entry<String, String> entry : Deck.entrySet())
                 {
-                    System.out.println(entry.getKey() + "/" + entry.getValue());
+                    System.out.println(entry.getKey() + "|" + entry.getValue());
+                }
+                System.out.println("Desea ver el deck de manera ordenada por tipo? \n ingrese el numero \n    1. si \n    2. no ");
+                int orden = input.nextInt();
+                if (orden==1){
+                    for (AbstractMap.Entry<String, String> entry : Deck.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Trampa");
+                    }
+                    for (AbstractMap.Entry<String, String> entry : Deck.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Monstruo");
+                    }
+                    for (AbstractMap.Entry<String, String> entry : Deck.entrySet())
+                    {
+                        System.out.println(entry.getKey() + "|Hechizo");
+                    }
                 }
             }
             if (opcion == 4 ){
