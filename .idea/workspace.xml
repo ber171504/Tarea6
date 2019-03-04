@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac222f5-8746-4ab1-ad6c-d051ac6e7898" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cartas" beforeDir="false" afterPath="$PROJECT_DIR$/cartas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapFacotry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapFacotry.java" afterDir="false" />
-    </list>
+    <list default="true" id="bac222f5-8746-4ab1-ad6c-d051ac6e7898" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="65" column="71" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="71" />
+            <state relative-caret-position="152">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#0#2392#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -31,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cartas" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cartas" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cartas">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -189,6 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -229,18 +225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="65" column="71" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#2392#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1388#1404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MapFacotry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -255,6 +239,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="8838" column="17" lean-forward="true" selection-start-line="8838" selection-end-line="8838" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2392#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1388#1404#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
